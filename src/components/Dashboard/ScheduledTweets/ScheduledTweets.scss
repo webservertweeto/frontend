@@ -1,0 +1,67 @@
+.latest-tweet {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  border: 1px solid #80808069;
+  border-radius: 5px;
+  padding: 10px;
+  justify-content: space-between;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .owner {
+    display: flex;
+    align-items: center;
+
+    .owner-img {
+      margin: 15px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 2px 3px 5px 3px #80808061;
+
+      img {
+        height: 50px;
+      }
+    }
+  }
+
+  .delete {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    button {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .content {
+    width: 100%;
+    position: relative;
+
+    img {
+      height: 200px;
+    }
+    .img {
+      width: 310px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #80808026;
+      padding: 6px;
+    }
+  }
+
+  .tweet-text {
+    font-weight: bold;
+  }
+}

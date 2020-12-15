@@ -1,0 +1,40 @@
+.dashboard-container {
+  height: 100vh;
+  display: flex;
+
+  .tweeter-account{
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #cbcbcb;
+    padding: 20px;
+  }
+
+  .tweeter-body {
+    width: 75%;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 10px 25px;
+    .schedule-tweet {
+      height: 15%;
+      width: 100%;
+    }
+
+    .tweets-container {
+      height: 70%;
+      width: 100%;
+      display: flex;
+      padding-top: 10px;
+      border-top: 1px solid #cbcbcb;
+
+      .scheduled-tweets {
+        width: 50%;
+        height: 100%;
+      }
+
+      .latest-tweets-container {
+        width: 50%;
+        height: 100%;
+      }
+    }
+  }
+}

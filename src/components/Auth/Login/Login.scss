@@ -1,0 +1,16 @@
+.login-container {
+  margin-top: 20px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.spinner {
+  opacity: 0;
+  transition: opacity .1s;
+}
+
+.loading {
+  opacity: 1;
+}

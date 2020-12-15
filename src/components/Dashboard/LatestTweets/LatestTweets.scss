@@ -1,0 +1,32 @@
+.latest-tweet {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  border: 1px solid #80808069;
+  border-radius: 5px;
+  padding: 10px;
+  justify-content: space-between;
+
+  .content {
+    img {
+      height: 200px;
+    }
+    .img {
+      width: 310px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #80808026;
+      padding: 6px;
+    }
+  }
+
+  .stats {
+    width: 250px;
+  }
+
+  .tweet-text {
+    font-weight: bold;
+    margin: 15px;
+  }
+}
