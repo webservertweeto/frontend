@@ -1,7 +1,6 @@
 # Tweeto Frontend Documentation
 
 This repository holds the frontend source code for the Tweeto Scheduling Application. This project relies on the Tweeto backend server to be running simultaneously alongside with this.
-The frontend is hosted online via Heroku at: https://radiant-beach-74576.herokuapp.com/
 
 ## IMPORTANT - Required Chrome Extension
 In order to run this application locally, the following chrome extension must be downloaded and enabled while the app is running: https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc
